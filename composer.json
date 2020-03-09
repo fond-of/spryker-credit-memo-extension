@@ -1,0 +1,47 @@
+{
+  "name": "fond-of-spryker/credit-memo-extension",
+  "description": "Credit memo extension module",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Daniel Rose",
+      "email": "daniel-rose@gmx.de"
+    },
+    {
+      "name": "Jozsef Geng",
+      "email": "gengjozsef86@gmail.com"
+    },
+    {
+      "name": "Markus Nörenberg",
+      "email": "noerenberg.markus@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.1"
+  },
+  "require-dev": {
+    "fond-of-codeception/spryker": "dev-master as 1.0.0",
+    "codeception/codeception": "^2.3",
+    "mikey179/vfsstream": "^1.6",
+    "phpro/grumphp": "^0.14",
+    "sebastian/phpcpd": "^4.0",
+    "spryker/code-sniffer": "^0.11",
+    "spryker/development": "^3.6"
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "autoload": {
+    "psr-4": {
+      "FondOfSpryker\\": "src/FondOfSpryker/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "FondOfSpryker\\": "tests/FondOfSpryker/",
+      "Generated\\": "tests/Generated/"
+    }
+  },
+  "config": {
+    "sort-packages": true
+  }
+}
