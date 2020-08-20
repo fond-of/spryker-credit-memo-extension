@@ -7,6 +7,8 @@ use Generated\Shared\Transfer\CreditMemoTransfer;
 
 interface CreditMemoProcessorPluginInterface
 {
+    public const EVENT_NAME = 'check for refund';
+
     /**
      * @param \Generated\Shared\Transfer\CreditMemoTransfer $creditMemoTransfer
      * @param \Generated\Shared\Transfer\CreditMemoProcessorStatusTransfer $statusResponse
